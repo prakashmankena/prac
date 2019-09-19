@@ -7,5 +7,10 @@ char c
 printf("Enter the numbers");
 scanf("&a,&b,&c" a,b,c);
 
+add()
+{
+c=a+b;
+
+}
 }
 
