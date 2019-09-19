@@ -10,6 +10,8 @@ public class GettingCurrentDate {
        Date dateobj = new Date();
        System.out.println(df.format(dateobj));
 
+	System.out.println(" the date is  ");
+
        /*getting current date time using calendar class 
         * An Alternative of above*/
        Calendar calobj = Calendar.getInstance();
