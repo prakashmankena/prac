@@ -11,6 +11,7 @@ public class GettingCurrentDate {
        System.out.println(df.format(dateobj));
 
 	System.out.println(" the date is  ");
+	System.out.println(" svn git ");
 
        /*getting current date time using calendar class 
         * An Alternative of above*/
