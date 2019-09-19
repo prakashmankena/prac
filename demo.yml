@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: true
+  vars_prompt:
+  - name: pack
+    prompt: enter the package name 
+    private: no 
+  tasks:
+  - name: to check the git stash
+    apt: name=git-core state=latest
+    igone_errors: yes
+    when: ansible_distribution=='Ubuntu'
+    notify:
+     - start git
